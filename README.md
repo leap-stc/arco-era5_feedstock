@@ -1,5 +1,4 @@
-# LEAP Template Feedstock
-This repository serves as template/documentation/testing ground for Leap-Pangeo Data Library Feedstocks.
+# Google Research ARCO-ERA5 Feedstock
 
 ## Setup
 ### Use this template
