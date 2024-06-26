@@ -1,19 +1,37 @@
-title: "LEAP Data Library Prototype"
+title: "ARCO ERA5"
 description: >
-  A prototype test for the LEAP Data Library refactor
+   Analysis-Ready, Cloud Optimized ERA5 data ingested by Google Research
 recipes:
-  - id: "small"
-    object: "recipe:small"
-  - id: "large"
-    object: "recipe:large"
+  - id: "0_25_deg_pressure_surface_levels"
+  - id: "0_25_deg_model_levels"
 provenance:
   providers:
-    - name: "Julius"
-      description: "Just a guy testing some recipes. Nothing to see here."
+    - name: "Google Research"
+      description: >
+      Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horányi, A., 
+      Muñoz‐Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers, D., 
+      Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., 
+      Bechtold, P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., 
+      Dahlgren, P., Dee, D., Diamantakis, M., Dragani, R., Flemming, J., 
+      Forbes, R., Fuentes, M., Geer, A., Haimberger, L., Healy, S., 
+      Hogan, R.J., Hólm, E., Janisková, M., Keeley, S., Laloyaux, P., 
+      Lopez, P., Lupu, C., Radnoti, G., de Rosnay, P., Rozum, I., Vamborg, F.,
+      Villaume, S., Thépaut, J-N. (2017): Complete ERA5: Fifth generation of 
+      ECMWF atmospheric reanalyses of the global climate. Copernicus Climate 
+      Change Service (C3S) Data Store (CDS).
+      
+      Hersbach et al, (2017) was downloaded from the Copernicus Climate Change 
+      Service (C3S) Climate Data Store. We thank C3S for allowing us to 
+      redistribute the data.
+      
+      The results contain modified Copernicus Climate Change Service 
+      information 2022. Neither the European Commission nor ECMWF is 
+      responsible for any use that may be made of the Copernicus information 
+      or data it contains.
       roles:
         - producer
         - licensor
-  license: "Just a Test"
+  license: "Apache Version 2.0"
 maintainers:
   - name: "Julius Busecke"
     orcid: "0000-0001-8571-865X"
