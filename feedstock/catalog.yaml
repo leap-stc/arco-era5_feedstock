@@ -6,9 +6,11 @@ tags:
   - zarr
 stores:
   - id: "0_25_deg_pressure_surface_levels"
-    name: "This dataset contains most pressure-level fields and all surface-level field regridded to a uniform 0.25° resolution. It is a superset of the data used to train GraphCast and NeuralGCM"
+    name: "0.25° ERA5 Surface Level Pressure"
+    description: "This dataset contains most pressure-level fields and all surface-level field regridded to a uniform 0.25° resolution. It is a superset of the data used to train GraphCast and NeuralGCM"
     url: "gs://gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3"
 
   - id: "0_25_deg_model_levels"
-    name: "This dataset contains 3D fields at 0.25° resolution with ERA5's native vertical coordinates (hybrid pressure/sigma coordinates)."
-    url: "'gs://gcp-public-data-arco-era5/ar/model-level-1h-0p25deg.zarr-v1'"
+    name: "0.25° ERA5 Model Level Pressure"
+    description: "This dataset contains 3D fields at 0.25° resolution with ERA5's native vertical coordinates (hybrid pressure/sigma coordinates)."
+    url: "gs://gcp-public-data-arco-era5/ar/model-level-1h-0p25deg.zarr-v1"
